@@ -20,7 +20,7 @@
 
 .sidebar, .sidebar a { color: #abb4be; }
 
-.nav { margin-top: 100px; }
+.nav { margin-top: 5vh; }
 
 .nav-items {
   margin: 0;
@@ -149,10 +149,22 @@
 
 
 /* User Avatar */
+.sidebar {
+  position: absolute;
+}
+
 .avatar {
+  margin:0px auto;
   height: 25vw;
   max-height: 160px;
   width: 25vw;
   max-width: 160px;
   border-radius: 50%;
+  display:block;
+  margin:auto;
+
+}
+
+.avatar-div {
+  margin-bottom: 5vw;
 }

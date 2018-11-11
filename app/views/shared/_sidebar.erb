@@ -1,7 +1,8 @@
 <% if user_signed_in? %>
   <aside class="sidebar">
     <nav class="nav">
-      <%= image_tag "http://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar", id: "navbar-wagon-menu", "data-toggle" => "dropdown" %>
+      <div class="avatar-div"> <%= image_tag "http://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar" %> </div>
+      <b></b>
       <ul class="nav-items">
         <li>
           <%= link_to "#" , class: "nav-link" do %>
